@@ -33,8 +33,15 @@ $dokka.location:nl.pinch.gameshub.data/Language///PointingToDeclaration/gameshu
 $dokka.location:nl.pinch.gameshub.data/Language/entries/#/PointingToDeclaration/gameshub/nl.pinch.gameshub.data/-language/entries.html
 $dokka.location:nl.pinch.gameshub.data/Language/valueOf/#kotlin.String/PointingToDeclaration/gameshub/nl.pinch.gameshub.data/-language/value-of.html
 $dokka.location:nl.pinch.gameshub.data/Language/values/#/PointingToDeclaration/gameshub/nl.pinch.gameshub.data/-language/values.html
+$dokka.location:nl.pinch.gameshub.data/OpenUrl.Type.WebLink///PointingToDeclaration/{"org.jetbrains.dokka.links.EnumEntryDRIExtra":{"key":"org.jetbrains.dokka.links.EnumEntryDRIExtra"}}gameshub/nl.pinch.gameshub.data/-open-url/-type/-web-link/index.html
+$dokka.location:nl.pinch.gameshub.data/OpenUrl.Type.WebMessage///PointingToDeclaration/{"org.jetbrains.dokka.links.EnumEntryDRIExtra":{"key":"org.jetbrains.dokka.links.EnumEntryDRIExtra"}}gameshub/nl.pinch.gameshub.data/-open-url/-type/-web-message/index.html
+$dokka.location:nl.pinch.gameshub.data/OpenUrl.Type///PointingToDeclaration/gameshub/nl.pinch.gameshub.data/-open-url/-type/index.html
+$dokka.location:nl.pinch.gameshub.data/OpenUrl.Type/entries/#/PointingToDeclaration/gameshub/nl.pinch.gameshub.data/-open-url/-type/entries.html
+$dokka.location:nl.pinch.gameshub.data/OpenUrl.Type/valueOf/#kotlin.String/PointingToDeclaration/gameshub/nl.pinch.gameshub.data/-open-url/-type/value-of.html
+$dokka.location:nl.pinch.gameshub.data/OpenUrl.Type/values/#/PointingToDeclaration/gameshub/nl.pinch.gameshub.data/-open-url/-type/values.html
 $dokka.location:nl.pinch.gameshub.data/OpenUrl///PointingToDeclaration/gameshub/nl.pinch.gameshub.data/-open-url/index.html
-$dokka.location:nl.pinch.gameshub.data/OpenUrl/OpenUrl/#kotlin.String/PointingToDeclaration/gameshub/nl.pinch.gameshub.data/-open-url/-open-url.html
+$dokka.location:nl.pinch.gameshub.data/OpenUrl/OpenUrl/#kotlin.String#nl.pinch.gameshub.data.OpenUrl.Type/PointingToDeclaration/gameshub/nl.pinch.gameshub.data/-open-url/-open-url.html
+$dokka.location:nl.pinch.gameshub.data/OpenUrl/type/#/PointingToDeclaration/gameshub/nl.pinch.gameshub.data/-open-url/type.html
 $dokka.location:nl.pinch.gameshub.data/OpenUrl/url/#/PointingToDeclaration/gameshub/nl.pinch.gameshub.data/-open-url/url.html
 $dokka.location:nl.pinch.gameshub.data/OutboundMessage///PointingToDeclaration/gameshub/nl.pinch.gameshub.data/-outbound-message/index.html
 $dokka.location:nl.pinch.gameshub.data/SetLanguage///PointingToDeclaration/gameshub/nl.pinch.gameshub.data/-set-language/index.html
