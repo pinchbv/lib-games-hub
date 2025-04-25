@@ -1,5 +1,14 @@
 # Changelog
 
+## 0.1.0
+- **Breaking change**: iOS framework is now exported as `GamesHub` (instead of `gameshub`).
+- **Breaking change**: `GamesHub` (the result of calling `GamesHubBuilder().build()`) has been renamed to `GamesHubController`.
+- **Breaking change**: The `Config` has moved from `GamesHubBuilder` to `GamesHubController.initialise(options)`.
+- **Breaking change**: Sending messages has been replaced with calling functions. See available functions in `GamesHubController`. 
+- **Breaking change**: Synced API with web. Removed `SetLanguage`, `SetPlatform`, `SetTitle`, `SetUserId`, `SetUserSubscription`.
+- **Breaking change**: Added new callback: `onGamePaused`.
+- Dependency update: Android Gradle Plugin 8.9.1
+
 ## 0.0.4
 - Add support in handling links inside a page.
 - Fix a bug on iOS header incorrectly passing the header.
