@@ -1,5 +1,8 @@
 # Changelog
 
+## 0.1.1
+- Downgrade iOS deploymentTarget to 15.0
+
 ## 0.1.0
 - **Breaking change**: iOS framework is now exported as `GamesHub` (instead of `gameshub`).
 - **Breaking change**: `GamesHub` (the result of calling `GamesHubBuilder().build()`) has been renamed to `GamesHubController`.
@@ -27,3 +30,4 @@
 
 ## 0.0.1
 - Initial release.
+- 

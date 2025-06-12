@@ -5,7 +5,7 @@
 
 The primary goal of the GamesHub SDK is to simplify integrating with [Q42 Games & Puzzles](https://gameshub.42puzzles.com/) in native mobile apps, by taking away the boilerplate and allowing you to focus on relevant business logic. It provides a 'view' for apps to include in their view hierarchy, and a type-safe mechanism for sending and receiving messages.
 
-This SDK is built using [Kotlin Multiplatform](https://kotlinlang.org/docs/multiplatform.html) and is compatible with Android (5 and up) and iOS (16 and up).
+This SDK is built using [Kotlin Multiplatform](https://kotlinlang.org/docs/multiplatform.html) and is compatible with Android (5 and up) and iOS (15 and up).
 
 Get in touch with us more for information:
 - GamesHub SDK for web: [Q42](https://gameshub.42puzzles.com/)
