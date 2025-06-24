@@ -1,7 +1,13 @@
 # Changelog
 
+## 0.1.2
+- Add support to add `SafeArea`
+- Add support to override `userAgent`
+- Add support for handling any/generic messages.
+
 ## 0.1.1
 - Downgrade iOS deploymentTarget to 15.0
+- Restrict WebView debugging to iOS 16.4 and higher
 
 ## 0.1.0
 - **Breaking change**: iOS framework is now exported as `GamesHub` (instead of `gameshub`).
@@ -30,4 +36,3 @@
 
 ## 0.0.1
 - Initial release.
-- 

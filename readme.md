@@ -63,7 +63,9 @@ val gamesHubController = GamesHubBuilder(
         override fun onGameCompleted(data: GameCompleted) { /* */ }
         override fun onShare(data: Share) { /* */ }
         override fun onOpenUrl(data: OpenUrl) { /* */ }
+        override fun onGeneric(data: Generic) { /* */ }
     },
+    userAgent = "Puzzels",
 ).build()
 ```
 
@@ -78,6 +80,10 @@ val options = Options(
     brand = "nrc",
     theme = Theme.default,
     player = Player.Anonymous,
+    safeArea = SafeArea(
+        body = SafeAreaValues(0, 0),
+        overlays = SafeAreaValues(statusBarHeight, 0),
+    ),
 )
 
 gamesHubController.initialize(options)
@@ -126,7 +132,7 @@ Create an instance of the `GamesHubController` using the `GamesHubBuilder`:
 ```swift
 let gamesHubController = GamesHubBuilder(
     frame: &self.view.bounds, // UIViewController view's bounds
-    config: config,
+    source: WebSource.Url(url: startUrl),
     callbacks: {
         class GamesHubCallbacksImpl : GamesHubCallbacks {
             func onGameCompleted(data: GameCompleted) { /* */ }
@@ -134,10 +140,12 @@ let gamesHubController = GamesHubBuilder(
             func onGamePaused(data: GamePaused) { /* */ }
             func onOpenUrl(data: OpenUrl) { /* */ }
             func onShare(data: Share) { /* */ }
+            func onGeneric(data: Generic) { /* */ }
         }
         return GamesHubCallbacksImpl()
     }(),
-    logger: OSLogLogger(level: LoggerLevel.debug)
+    logger: OSLogLogger(level: LoggerLevel.debug),
+    userAgent: "NRC-Puzzels"
 ).build()
 ```
 
@@ -151,7 +159,11 @@ let options = Options(
     organisation: "nrc",
     brand: "nrc",
     theme: Theme.default,
-    player: Player.companion.Anonymous
+    player: Player.companion.Anonymous,
+    safeArea: SafeArea(
+        body: SafeAreaValues(top: 0, bottom: 0),
+        overlays: SafeAreaValues(top: 0, bottom: 0)
+    )
 )
 
 gamesHubController.initialize(options: options)
