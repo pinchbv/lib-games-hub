@@ -1,5 +1,8 @@
 # Changelog
 
+## 0.1.4
+- This version is similar to 0.1.3. 0.1.3 had checksum errors due to an error on the workflow.
+
 ## 0.1.3
 - Add new callback: `onHeightCalculated`, which is triggered after a game loads and provides the calculated height of the web content
 - Add new method: `setScrollEnabled`, allowing the host application to enable or disable scrolling within the GamesHub WebView.
