@@ -64,6 +64,7 @@ val gamesHubController = GamesHubBuilder(
         override fun onShare(data: Share) { /* */ }
         override fun onOpenUrl(data: OpenUrl) { /* */ }
         override fun onGeneric(data: Generic) { /* */ }
+        
     },
     userAgent = "Puzzels",
 ).build()
@@ -111,6 +112,7 @@ Some examples include:
 - When using an activity-based navigation stack, the view may not be destroyed and/or recreated when transiting from one destination to another. If the game state can change in any of the destinations, GamesHub will need to be explicitly informed to reflect the latest state when navigating back. The sample app showcases this, and informs GamesHub it received `focus()` again when an Activity gets resumed.
 - When manually handling [configuration changes](https://developer.android.com/guide/topics/manifest/activity-element#config). For `uiMode` changes, call `setTheme()` with a light or dark theme.
 - For additional logging, call `setDebug()`.
+- To disable scrolling you can set it via `setScrollEnabled(true || false)`. This is used in combination of the `GamesHubCallbacks.onHeightCalculated` callback.
 
 > [!TIP]  
 > Config changes that cause the UI context (and therefore the GamesHub) to recreate will generally not have to be explicitly sent, provided these are reflected when calling `initialize()`.
@@ -141,6 +143,7 @@ let gamesHubController = GamesHubBuilder(
             func onOpenUrl(data: OpenUrl) { /* */ }
             func onShare(data: Share) { /* */ }
             func onGeneric(data: Generic) { /* */ }
+            func onHeightCalculated(height: Int32) { /* */ }
         }
         return GamesHubCallbacksImpl()
     }(),
@@ -190,3 +193,4 @@ Some examples include:
 - When using an `UIViewController`-based navigation stack, the view is not destroyed and/or recreated when transiting from one destination to another. If the game state can change in any of the destinations, GamesHub will need to be explicitly informed to reflect the latest state when navigating back. The sample app showcases this, and informs GamesHub it received `focus()` again when an `UIViewController` will appear (again).
 - When switching between light and dark mode, call `setTheme()` with the appropriate theme.
 - For additional logging, call `setDebug()`.
+- To disable scrolling you can set it via `setScrollEnabled(true || false)`. This is used in combination of the `GamesHubCallbacks.onHeightCalculated` callback.
