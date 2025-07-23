@@ -1,5 +1,15 @@
 # Changelog
 
+## 0.1.3
+- Add new callback: `onHeightCalculated`, which is triggered after a game loads and provides the calculated height of the web content
+- Add new method: `setScrollEnabled`, allowing the host application to enable or disable scrolling within the GamesHub WebView.
+- Add `CachePolicy` enum with values `Default, NoCache, CacheElseNetwork`
+- Add new optional `cachePolicy` parameter to the `WebSource.Url` data class.
+- Dependency update: Kotlin 2.2.0
+- Dependency update: Kotlinx.serialization 1.9.0
+- Dependency update: SKIE 0.10.4
+- Dependency update: Androidx Webkit 1.14.0
+
 ## 0.1.2
 - Add support to add `SafeArea`
 - Add support to override `userAgent`
