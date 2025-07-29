@@ -1,6 +1,10 @@
 $dokka.format:html-v1
 $dokka.linkExtension:html
 $dokka.location:nl.pinch.gameshub.data////PointingToDeclaration/gameshub/nl.pinch.gameshub.data/index.html
+$dokka.location:nl.pinch.gameshub.data/AppInitialized///PointingToDeclaration/gameshub/nl.pinch.gameshub.data/-app-initialized/index.html
+$dokka.location:nl.pinch.gameshub.data/AppInitialized/AppInitialized/#kotlin.Long#nl.pinch.gameshub.data.Metadata?/PointingToDeclaration/gameshub/nl.pinch.gameshub.data/-app-initialized/-app-initialized.html
+$dokka.location:nl.pinch.gameshub.data/AppInitialized/metadata/#/PointingToDeclaration/gameshub/nl.pinch.gameshub.data/-app-initialized/metadata.html
+$dokka.location:nl.pinch.gameshub.data/AppInitialized/timestamp/#/PointingToDeclaration/gameshub/nl.pinch.gameshub.data/-app-initialized/timestamp.html
 $dokka.location:nl.pinch.gameshub.data/CachePolicy.CacheElseNetwork///PointingToDeclaration/{"org.jetbrains.dokka.links.EnumEntryDRIExtra":{"key":"org.jetbrains.dokka.links.EnumEntryDRIExtra"}}gameshub/nl.pinch.gameshub.data/-cache-policy/-cache-else-network/index.html
 $dokka.location:nl.pinch.gameshub.data/CachePolicy.Default///PointingToDeclaration/{"org.jetbrains.dokka.links.EnumEntryDRIExtra":{"key":"org.jetbrains.dokka.links.EnumEntryDRIExtra"}}gameshub/nl.pinch.gameshub.data/-cache-policy/-default/index.html
 $dokka.location:nl.pinch.gameshub.data/CachePolicy.NoCache///PointingToDeclaration/{"org.jetbrains.dokka.links.EnumEntryDRIExtra":{"key":"org.jetbrains.dokka.links.EnumEntryDRIExtra"}}gameshub/nl.pinch.gameshub.data/-cache-policy/-no-cache/index.html
@@ -94,6 +98,7 @@ $dokka.location:nl.pinch.gameshub/GamesHubCallbacks/onGamePaused/#nl.pinch.games
 $dokka.location:nl.pinch.gameshub/GamesHubCallbacks/onGameStarted/#nl.pinch.gameshub.data.GameStarted/PointingToDeclaration/gameshub/nl.pinch.gameshub/-games-hub-callbacks/on-game-started.html
 $dokka.location:nl.pinch.gameshub/GamesHubCallbacks/onGeneric/#nl.pinch.gameshub.data.Generic/PointingToDeclaration/gameshub/nl.pinch.gameshub/-games-hub-callbacks/on-generic.html
 $dokka.location:nl.pinch.gameshub/GamesHubCallbacks/onHeightCalculated/#kotlin.Int/PointingToDeclaration/gameshub/nl.pinch.gameshub/-games-hub-callbacks/on-height-calculated.html
+$dokka.location:nl.pinch.gameshub/GamesHubCallbacks/onInitialized/#nl.pinch.gameshub.data.AppInitialized/PointingToDeclaration/gameshub/nl.pinch.gameshub/-games-hub-callbacks/on-initialized.html
 $dokka.location:nl.pinch.gameshub/GamesHubCallbacks/onOpenUrl/#nl.pinch.gameshub.data.OpenUrl/PointingToDeclaration/gameshub/nl.pinch.gameshub/-games-hub-callbacks/on-open-url.html
 $dokka.location:nl.pinch.gameshub/GamesHubCallbacks/onShare/#nl.pinch.gameshub.data.Share/PointingToDeclaration/gameshub/nl.pinch.gameshub/-games-hub-callbacks/on-share.html
 $dokka.location:nl.pinch.gameshub/GamesHubController///PointingToDeclaration/gameshub/nl.pinch.gameshub/-games-hub-controller/index.html

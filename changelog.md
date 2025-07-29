@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.1.5
+- Add new callback: `onInitialized`, which is triggered when the initialized message is received from games app, indicating the app successfully loaded
+- Update Organization and Brand to `nrc` in Android app
+
 ## 0.1.4
 - This version is similar to 0.1.3. 0.1.3 had checksum errors due to an error on the workflow.
 
