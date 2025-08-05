@@ -1,5 +1,8 @@
 # Changelog
 
+## 0.1.6
+- Retain the webView's navigationDelegate object in iOS webView implementation
+
 ## 0.1.5
 - Add new callback: `onInitialized`, which is triggered when the initialized message is received from games app, indicating the app successfully loaded
 - Update Organization and Brand to `nrc` in Android app

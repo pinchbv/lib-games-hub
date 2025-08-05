@@ -2,8 +2,8 @@
 import PackageDescription
 
 // BEGIN KMMBRIDGE VARIABLES BLOCK (do not edit)
-let remoteKotlinUrl = "https://maven.pinch.nl/maven/nl/pinch/gameshub-spm/0.1.5/gameshub-spm-0.1.5.zip"
-let remoteKotlinChecksum = "224d336a347df7d27e182c557a63e26c651c57edf8c16d07aa5a7a280edb3300"
+let remoteKotlinUrl = "https://maven.pinch.nl/maven/nl/pinch/gameshub-spm/0.1.6/gameshub-spm-0.1.6.zip"
+let remoteKotlinChecksum = "8369297bfe0bd5912a75d45b41b68900c872e33510e5d1c37fec5ec64b6794cd"
 let packageName = "GamesHub"
 // END KMMBRIDGE BLOCK
 
