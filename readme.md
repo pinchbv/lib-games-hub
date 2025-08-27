@@ -58,6 +58,8 @@ val gamesHubController = GamesHubBuilder(
     source = WebSource.Url(url = startUrl),
     logger = LogCatLogger(Logger.Level.Debug),
     callbacks = object: GamesHubCallbacks {
+        override fun onReady(data: PuzzleData) { /* */ }
+        override fun onInitialized(data: PuzzleData) { /* */ }
         override fun onGameStarted(data: GameStarted) { /* */ }
         override fun onGamePaused(data: GamePaused) { /* */ }
         override fun onGameCompleted(data: GameCompleted) { /* */ }
@@ -137,6 +139,8 @@ let gamesHubController = GamesHubBuilder(
     source: WebSource.Url(url: startUrl),
     callbacks: {
         class GamesHubCallbacksImpl : GamesHubCallbacks {
+            func onReady(data: PuzzleData) { /* */ }
+            func onInitialized(data: PuzzleData) { /* */ }
             func onGameCompleted(data: GameCompleted) { /* */ }
             func onGameStarted(data: GameStarted) { /* */ }
             func onGamePaused(data: GamePaused) { /* */ }

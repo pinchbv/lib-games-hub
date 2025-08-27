@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.1.7
+- Add new callback: `onReady`, which is triggered when the ready message is received from games app, indicating the app is ready to receive messages.
+- Renamed `AppInitialized` message to `PuzzleData` which are used in `onReady` and `onInitialized`
+- Add more logs to `AndroidWebView` and `iOSWebView`
+- Dependency update: Kotlin 2.2.10
+- Dependency update: SKIE 0.10.6
+
 ## 0.1.6
 - Retain the webView's navigationDelegate object in iOS webView implementation
 
