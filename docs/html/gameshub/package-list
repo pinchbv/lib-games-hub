@@ -36,6 +36,12 @@ $dokka.location:nl.pinch.gameshub.data/GameStarted///PointingToDeclaration/game
 $dokka.location:nl.pinch.gameshub.data/GameStarted/GameStarted/#kotlin.time.Duration#nl.pinch.gameshub.data.Metadata?/PointingToDeclaration/gameshub/nl.pinch.gameshub.data/-game-started/-game-started.html
 $dokka.location:nl.pinch.gameshub.data/GameStarted/metadata/#/PointingToDeclaration/gameshub/nl.pinch.gameshub.data/-game-started/metadata.html
 $dokka.location:nl.pinch.gameshub.data/GameStarted/playTime/#/PointingToDeclaration/gameshub/nl.pinch.gameshub.data/-game-started/play-time.html
+$dokka.location:nl.pinch.gameshub.data/GameVariant.MultiGame///PointingToDeclaration/{"org.jetbrains.dokka.links.EnumEntryDRIExtra":{"key":"org.jetbrains.dokka.links.EnumEntryDRIExtra"}}gameshub/nl.pinch.gameshub.data/-game-variant/-multi-game/index.html
+$dokka.location:nl.pinch.gameshub.data/GameVariant.SingleGame///PointingToDeclaration/{"org.jetbrains.dokka.links.EnumEntryDRIExtra":{"key":"org.jetbrains.dokka.links.EnumEntryDRIExtra"}}gameshub/nl.pinch.gameshub.data/-game-variant/-single-game/index.html
+$dokka.location:nl.pinch.gameshub.data/GameVariant///PointingToDeclaration/gameshub/nl.pinch.gameshub.data/-game-variant/index.html
+$dokka.location:nl.pinch.gameshub.data/GameVariant/entries/#/PointingToDeclaration/gameshub/nl.pinch.gameshub.data/-game-variant/entries.html
+$dokka.location:nl.pinch.gameshub.data/GameVariant/valueOf/#kotlin.String/PointingToDeclaration/gameshub/nl.pinch.gameshub.data/-game-variant/value-of.html
+$dokka.location:nl.pinch.gameshub.data/GameVariant/values/#/PointingToDeclaration/gameshub/nl.pinch.gameshub.data/-game-variant/values.html
 $dokka.location:nl.pinch.gameshub.data/Generic///PointingToDeclaration/gameshub/nl.pinch.gameshub.data/-generic/index.html
 $dokka.location:nl.pinch.gameshub.data/Generic/Generic/#kotlin.String#kotlin.collections.Map[kotlin.String,kotlin.Any?]?#nl.pinch.gameshub.data.Metadata?/PointingToDeclaration/gameshub/nl.pinch.gameshub.data/-generic/-generic.html
 $dokka.location:nl.pinch.gameshub.data/Generic/data/#/PointingToDeclaration/gameshub/nl.pinch.gameshub.data/-generic/data.html
@@ -99,10 +105,13 @@ $dokka.location:nl.pinch.gameshub/GamesHubCallbacks/onGameStarted/#nl.pinch.game
 $dokka.location:nl.pinch.gameshub/GamesHubCallbacks/onGeneric/#nl.pinch.gameshub.data.Generic/PointingToDeclaration/gameshub/nl.pinch.gameshub/-games-hub-callbacks/on-generic.html
 $dokka.location:nl.pinch.gameshub/GamesHubCallbacks/onHeightCalculated/#kotlin.Int/PointingToDeclaration/gameshub/nl.pinch.gameshub/-games-hub-callbacks/on-height-calculated.html
 $dokka.location:nl.pinch.gameshub/GamesHubCallbacks/onInitialized/#nl.pinch.gameshub.data.PuzzleData/PointingToDeclaration/gameshub/nl.pinch.gameshub/-games-hub-callbacks/on-initialized.html
+$dokka.location:nl.pinch.gameshub/GamesHubCallbacks/onModalShown/#kotlin.Boolean/PointingToDeclaration/gameshub/nl.pinch.gameshub/-games-hub-callbacks/on-modal-shown.html
 $dokka.location:nl.pinch.gameshub/GamesHubCallbacks/onOpenUrl/#nl.pinch.gameshub.data.OpenUrl/PointingToDeclaration/gameshub/nl.pinch.gameshub/-games-hub-callbacks/on-open-url.html
 $dokka.location:nl.pinch.gameshub/GamesHubCallbacks/onReady/#nl.pinch.gameshub.data.PuzzleData/PointingToDeclaration/gameshub/nl.pinch.gameshub/-games-hub-callbacks/on-ready.html
 $dokka.location:nl.pinch.gameshub/GamesHubCallbacks/onShare/#nl.pinch.gameshub.data.Share/PointingToDeclaration/gameshub/nl.pinch.gameshub/-games-hub-callbacks/on-share.html
+$dokka.location:nl.pinch.gameshub/GamesHubCallbacks/onStartScreenOpened/#nl.pinch.gameshub.data.GameVariant/PointingToDeclaration/gameshub/nl.pinch.gameshub/-games-hub-callbacks/on-start-screen-opened.html
 $dokka.location:nl.pinch.gameshub/GamesHubController///PointingToDeclaration/gameshub/nl.pinch.gameshub/-games-hub-controller/index.html
+$dokka.location:nl.pinch.gameshub/GamesHubController/closeOverlays/#kotlin.Boolean/PointingToDeclaration/gameshub/nl.pinch.gameshub/-games-hub-controller/close-overlays.html
 $dokka.location:nl.pinch.gameshub/GamesHubController/focus/#/PointingToDeclaration/gameshub/nl.pinch.gameshub/-games-hub-controller/focus.html
 $dokka.location:nl.pinch.gameshub/GamesHubController/initialize/#nl.pinch.gameshub.Options/PointingToDeclaration/gameshub/nl.pinch.gameshub/-games-hub-controller/initialize.html
 $dokka.location:nl.pinch.gameshub/GamesHubController/setDebug/#kotlin.Boolean/PointingToDeclaration/gameshub/nl.pinch.gameshub/-games-hub-controller/set-debug.html

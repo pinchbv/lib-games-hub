@@ -66,7 +66,9 @@ val gamesHubController = GamesHubBuilder(
         override fun onShare(data: Share) { /* */ }
         override fun onOpenUrl(data: OpenUrl) { /* */ }
         override fun onGeneric(data: Generic) { /* */ }
-        
+        override fun onHeightCalculated(height: Int) { /* */ }
+        override fun onModalShown(isShown: Boolean) { /* */ }
+        override fun onStartScreenOpened(variant: GameVariant) { /* */ }
     },
     userAgent = "Puzzels",
 ).build()
@@ -115,6 +117,7 @@ Some examples include:
 - When manually handling [configuration changes](https://developer.android.com/guide/topics/manifest/activity-element#config). For `uiMode` changes, call `setTheme()` with a light or dark theme.
 - For additional logging, call `setDebug()`.
 - To disable scrolling you can set it via `setScrollEnabled(true || false)`. This is used in combination of the `GamesHubCallbacks.onHeightCalculated` callback.
+- `closeOverlays(useAnimation: Boolean)` allows to close any modal that is currently opened on the page.
 
 > [!TIP]  
 > Config changes that cause the UI context (and therefore the GamesHub) to recreate will generally not have to be explicitly sent, provided these are reflected when calling `initialize()`.
@@ -148,6 +151,8 @@ let gamesHubController = GamesHubBuilder(
             func onShare(data: Share) { /* */ }
             func onGeneric(data: Generic) { /* */ }
             func onHeightCalculated(height: Int32) { /* */ }
+            func onModalShown(isShown: Bool) { /* */ }
+            func onStartScreenOpened(variant: GamesHub.GameVariant) { /* */ }
         }
         return GamesHubCallbacksImpl()
     }(),
@@ -198,3 +203,4 @@ Some examples include:
 - When switching between light and dark mode, call `setTheme()` with the appropriate theme.
 - For additional logging, call `setDebug()`.
 - To disable scrolling you can set it via `setScrollEnabled(true || false)`. This is used in combination of the `GamesHubCallbacks.onHeightCalculated` callback.
+- `closeOverlays(useAnimation: Boolean)` allows to close any modal that is currently opened on the page.

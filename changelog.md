@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.1.8
+- Add new callback: `onModalShown`, which is triggered when any modal is shown.
+- Add new callback: `onStartScreenOpened`, which is triggered when the start screen is opened. The start screen is a screen where it shows information about the puzzle before playing.
+- Add new method: `closeOverlays`, allows to close any modal that is currently opened on the page.
+- Dependency update: Kotlin 2.2.21
+
 ## 0.1.7
 - Add new callback: `onReady`, which is triggered when the ready message is received from games app, indicating the app is ready to receive messages.
 - Renamed `AppInitialized` message to `PuzzleData` which are used in `onReady` and `onInitialized`
