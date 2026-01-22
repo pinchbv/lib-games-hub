@@ -1,5 +1,14 @@
 # Changelog
 
+## 0.1.9
+- Add new method: `evaluateJavascript`, allows to run a javascript command in the GamesHub's WebView.
+- Fixes an iOS bug where the white background flashes in dark mode.
+- Dependency update: Kotlin 2.3.0
+- Dependency update: SKIE 0.10.9
+- Dependency update: Kotlinx.serialization 1.10.0
+- Dependency update: Androidx Webkit 1.15.0
+- Update Android targetSdk to 36
+
 ## 0.1.8
 - Add new callback: `onModalShown`, which is triggered when any modal is shown.
 - Add new callback: `onStartScreenOpened`, which is triggered when the start screen is opened. The start screen is a screen where it shows information about the puzzle before playing.

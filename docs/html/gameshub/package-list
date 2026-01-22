@@ -84,14 +84,15 @@ $dokka.location:nl.pinch.gameshub.data/Theme/valueOf/#kotlin.String/PointingToDe
 $dokka.location:nl.pinch.gameshub.data/Theme/values/#/PointingToDeclaration/gameshub/nl.pinch.gameshub.data/-theme/values.html
 $dokka.location:nl.pinch.gameshub.internal.webview////PointingToDeclaration/gameshub/nl.pinch.gameshub.internal.webview/index.html
 $dokka.location:nl.pinch.gameshub.internal.webview/ScrollableWebView///PointingToDeclaration/gameshub/nl.pinch.gameshub.internal.webview/-scrollable-web-view/index.html
-$dokka.location:nl.pinch.gameshub.internal.webview/ScrollableWebView/ScrollableWebView/#android.content.Context#android.util.AttributeSet?#kotlin.Int/PointingToDeclaration/gameshub/nl.pinch.gameshub.internal.webview/-scrollable-web-view/-scrollable-web-view.html
+$dokka.location:nl.pinch.gameshub.internal.webview/ScrollableWebView/ScrollableWebView/#<ERROR CLASS> ERROR CLASS: Symbol not found for Context#<ERROR CLASS> ERROR CLASS: Symbol not found for AttributeSet??#kotlin.Int/PointingToDeclaration/gameshub/nl.pinch.gameshub.internal.webview/-scrollable-web-view/-scrollable-web-view.html
 $dokka.location:nl.pinch.gameshub.internal.webview/ScrollableWebView/isScrollingEnabled/#/PointingToDeclaration/gameshub/nl.pinch.gameshub.internal.webview/-scrollable-web-view/is-scrolling-enabled.html
+$dokka.location:nl.pinch.gameshub.internal.webview/ScrollableWebView/onScrollChanged/#kotlin.Int#kotlin.Int#kotlin.Int#kotlin.Int/PointingToDeclaration/gameshub/nl.pinch.gameshub.internal.webview/-scrollable-web-view/on-scroll-changed.html
 $dokka.location:nl.pinch.gameshub.view////PointingToDeclaration/gameshub/nl.pinch.gameshub.view/index.html
 $dokka.location:nl.pinch.gameshub.view/GamesHubView///PointingToDeclaration/gameshub/nl.pinch.gameshub.view/-games-hub-view/index.html
 $dokka.location:nl.pinch.gameshub////PointingToDeclaration/gameshub/nl.pinch.gameshub/index.html
 $dokka.location:nl.pinch.gameshub//get/nl.pinch.gameshub.view.GamesHubView#/PointingToDeclaration/gameshub/nl.pinch.gameshub/[ios]get.html
 $dokka.location:nl.pinch.gameshub/GamesHubBuilder///PointingToDeclaration/gameshub/nl.pinch.gameshub/-games-hub-builder/index.html
-$dokka.location:nl.pinch.gameshub/GamesHubBuilder/GamesHubBuilder/#android.content.Context#nl.pinch.gameshub.WebSource#nl.pinch.gameshub.GamesHubCallbacks#nl.pinch.gameshub.Logger#kotlin.String?/PointingToDeclaration/gameshub/nl.pinch.gameshub/-games-hub-builder/-games-hub-builder.html
+$dokka.location:nl.pinch.gameshub/GamesHubBuilder/GamesHubBuilder/#<ERROR CLASS> ERROR CLASS: Symbol not found for Context#nl.pinch.gameshub.WebSource#nl.pinch.gameshub.GamesHubCallbacks#nl.pinch.gameshub.Logger#kotlin.String?/PointingToDeclaration/gameshub/nl.pinch.gameshub/-games-hub-builder/-games-hub-builder.html
 $dokka.location:nl.pinch.gameshub/GamesHubBuilder/GamesHubBuilder/#platform.CoreGraphics.CGRect#nl.pinch.gameshub.WebSource#nl.pinch.gameshub.GamesHubCallbacks#nl.pinch.gameshub.Logger#kotlin.String?/PointingToDeclaration/gameshub/nl.pinch.gameshub/-games-hub-builder/-games-hub-builder.html
 $dokka.location:nl.pinch.gameshub/GamesHubBuilder/build/#/PointingToDeclaration/gameshub/nl.pinch.gameshub/-games-hub-builder/build.html
 $dokka.location:nl.pinch.gameshub/GamesHubBuilder/callbacks/#/PointingToDeclaration/gameshub/nl.pinch.gameshub/-games-hub-builder/callbacks.html
@@ -112,6 +113,7 @@ $dokka.location:nl.pinch.gameshub/GamesHubCallbacks/onShare/#nl.pinch.gameshub.d
 $dokka.location:nl.pinch.gameshub/GamesHubCallbacks/onStartScreenOpened/#nl.pinch.gameshub.data.GameVariant/PointingToDeclaration/gameshub/nl.pinch.gameshub/-games-hub-callbacks/on-start-screen-opened.html
 $dokka.location:nl.pinch.gameshub/GamesHubController///PointingToDeclaration/gameshub/nl.pinch.gameshub/-games-hub-controller/index.html
 $dokka.location:nl.pinch.gameshub/GamesHubController/closeOverlays/#kotlin.Boolean/PointingToDeclaration/gameshub/nl.pinch.gameshub/-games-hub-controller/close-overlays.html
+$dokka.location:nl.pinch.gameshub/GamesHubController/evaluateJavascript/#kotlin.String#kotlin.Function1[kotlin.String?,kotlin.Unit]/PointingToDeclaration/gameshub/nl.pinch.gameshub/-games-hub-controller/evaluate-javascript.html
 $dokka.location:nl.pinch.gameshub/GamesHubController/focus/#/PointingToDeclaration/gameshub/nl.pinch.gameshub/-games-hub-controller/focus.html
 $dokka.location:nl.pinch.gameshub/GamesHubController/initialize/#nl.pinch.gameshub.Options/PointingToDeclaration/gameshub/nl.pinch.gameshub/-games-hub-controller/initialize.html
 $dokka.location:nl.pinch.gameshub/GamesHubController/setDebug/#kotlin.Boolean/PointingToDeclaration/gameshub/nl.pinch.gameshub/-games-hub-controller/set-debug.html

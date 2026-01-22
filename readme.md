@@ -118,6 +118,7 @@ Some examples include:
 - For additional logging, call `setDebug()`.
 - To disable scrolling you can set it via `setScrollEnabled(true || false)`. This is used in combination of the `GamesHubCallbacks.onHeightCalculated` callback.
 - `closeOverlays(useAnimation: Boolean)` allows to close any modal that is currently opened on the page.
+- `evaluateJavascript(script: String, resultCallback: (String?) -> Unit)` allows to run a javascript command in the GamesHub's WebView.
 
 > [!TIP]  
 > Config changes that cause the UI context (and therefore the GamesHub) to recreate will generally not have to be explicitly sent, provided these are reflected when calling `initialize()`.
@@ -204,3 +205,4 @@ Some examples include:
 - For additional logging, call `setDebug()`.
 - To disable scrolling you can set it via `setScrollEnabled(true || false)`. This is used in combination of the `GamesHubCallbacks.onHeightCalculated` callback.
 - `closeOverlays(useAnimation: Boolean)` allows to close any modal that is currently opened on the page.
+- `evaluateJavascript(script: String, resultCallback: (String?) -> Unit)` allows to run a javascript command in the GamesHub's WebView.
