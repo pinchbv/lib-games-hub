@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.1.10
+- Add new callback: `onGameData`, which is triggered when a game data message is received.
+- Add feature flags for external game title in initialization.
+- Dependency update: Kotlin 2.3.10
+- Dependency update: SKIE 0.10.10
+
 ## 0.1.9
 - Add new method: `evaluateJavascript`, allows to run a javascript command in the GamesHub's WebView.
 - Fixes an iOS bug where the white background flashes in dark mode.

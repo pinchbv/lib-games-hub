@@ -12,6 +12,12 @@ $dokka.location:nl.pinch.gameshub.data/GameCompleted///PointingToDeclaration/ga
 $dokka.location:nl.pinch.gameshub.data/GameCompleted/GameCompleted/#kotlin.collections.List[nl.pinch.gameshub.data.GameResultData]#nl.pinch.gameshub.data.Metadata?/PointingToDeclaration/gameshub/nl.pinch.gameshub.data/-game-completed/-game-completed.html
 $dokka.location:nl.pinch.gameshub.data/GameCompleted/gameResultData/#/PointingToDeclaration/gameshub/nl.pinch.gameshub.data/-game-completed/game-result-data.html
 $dokka.location:nl.pinch.gameshub.data/GameCompleted/metadata/#/PointingToDeclaration/gameshub/nl.pinch.gameshub.data/-game-completed/metadata.html
+$dokka.location:nl.pinch.gameshub.data/GameData///PointingToDeclaration/gameshub/nl.pinch.gameshub.data/-game-data/index.html
+$dokka.location:nl.pinch.gameshub.data/GameData/GameData/#kotlin.String#kotlin.String?#kotlin.String#kotlin.String/PointingToDeclaration/gameshub/nl.pinch.gameshub.data/-game-data/-game-data.html
+$dokka.location:nl.pinch.gameshub.data/GameData/date/#/PointingToDeclaration/gameshub/nl.pinch.gameshub.data/-game-data/date.html
+$dokka.location:nl.pinch.gameshub.data/GameData/relativeDate/#/PointingToDeclaration/gameshub/nl.pinch.gameshub.data/-game-data/relative-date.html
+$dokka.location:nl.pinch.gameshub.data/GameData/title/#/PointingToDeclaration/gameshub/nl.pinch.gameshub.data/-game-data/title.html
+$dokka.location:nl.pinch.gameshub.data/GameData/variant/#/PointingToDeclaration/gameshub/nl.pinch.gameshub.data/-game-data/variant.html
 $dokka.location:nl.pinch.gameshub.data/GamePaused///PointingToDeclaration/gameshub/nl.pinch.gameshub.data/-game-paused/index.html
 $dokka.location:nl.pinch.gameshub.data/GamePaused/GamePaused/#kotlin.time.Duration#nl.pinch.gameshub.data.Metadata?/PointingToDeclaration/gameshub/nl.pinch.gameshub.data/-game-paused/-game-paused.html
 $dokka.location:nl.pinch.gameshub.data/GamePaused/metadata/#/PointingToDeclaration/gameshub/nl.pinch.gameshub.data/-game-paused/metadata.html
@@ -91,6 +97,12 @@ $dokka.location:nl.pinch.gameshub.view////PointingToDeclaration/gameshub/nl.pin
 $dokka.location:nl.pinch.gameshub.view/GamesHubView///PointingToDeclaration/gameshub/nl.pinch.gameshub.view/-games-hub-view/index.html
 $dokka.location:nl.pinch.gameshub////PointingToDeclaration/gameshub/nl.pinch.gameshub/index.html
 $dokka.location:nl.pinch.gameshub//get/nl.pinch.gameshub.view.GamesHubView#/PointingToDeclaration/gameshub/nl.pinch.gameshub/[ios]get.html
+$dokka.location:nl.pinch.gameshub/ExternalGameTitle///PointingToDeclaration/gameshub/nl.pinch.gameshub/-external-game-title/index.html
+$dokka.location:nl.pinch.gameshub/ExternalGameTitle/ExternalGameTitle/#kotlin.Boolean/PointingToDeclaration/gameshub/nl.pinch.gameshub/-external-game-title/-external-game-title.html
+$dokka.location:nl.pinch.gameshub/ExternalGameTitle/enabled/#/PointingToDeclaration/gameshub/nl.pinch.gameshub/-external-game-title/enabled.html
+$dokka.location:nl.pinch.gameshub/Features///PointingToDeclaration/gameshub/nl.pinch.gameshub/-features/index.html
+$dokka.location:nl.pinch.gameshub/Features/Features/#nl.pinch.gameshub.ExternalGameTitle?/PointingToDeclaration/gameshub/nl.pinch.gameshub/-features/-features.html
+$dokka.location:nl.pinch.gameshub/Features/externalGameTitle/#/PointingToDeclaration/gameshub/nl.pinch.gameshub/-features/external-game-title.html
 $dokka.location:nl.pinch.gameshub/GamesHubBuilder///PointingToDeclaration/gameshub/nl.pinch.gameshub/-games-hub-builder/index.html
 $dokka.location:nl.pinch.gameshub/GamesHubBuilder/GamesHubBuilder/#<ERROR CLASS> ERROR CLASS: Symbol not found for Context#nl.pinch.gameshub.WebSource#nl.pinch.gameshub.GamesHubCallbacks#nl.pinch.gameshub.Logger#kotlin.String?/PointingToDeclaration/gameshub/nl.pinch.gameshub/-games-hub-builder/-games-hub-builder.html
 $dokka.location:nl.pinch.gameshub/GamesHubBuilder/GamesHubBuilder/#platform.CoreGraphics.CGRect#nl.pinch.gameshub.WebSource#nl.pinch.gameshub.GamesHubCallbacks#nl.pinch.gameshub.Logger#kotlin.String?/PointingToDeclaration/gameshub/nl.pinch.gameshub/-games-hub-builder/-games-hub-builder.html
@@ -101,6 +113,7 @@ $dokka.location:nl.pinch.gameshub/GamesHubBuilder/source/#/PointingToDeclaration
 $dokka.location:nl.pinch.gameshub/GamesHubBuilder/userAgent/#/PointingToDeclaration/gameshub/nl.pinch.gameshub/-games-hub-builder/user-agent.html
 $dokka.location:nl.pinch.gameshub/GamesHubCallbacks///PointingToDeclaration/gameshub/nl.pinch.gameshub/-games-hub-callbacks/index.html
 $dokka.location:nl.pinch.gameshub/GamesHubCallbacks/onGameCompleted/#nl.pinch.gameshub.data.GameCompleted/PointingToDeclaration/gameshub/nl.pinch.gameshub/-games-hub-callbacks/on-game-completed.html
+$dokka.location:nl.pinch.gameshub/GamesHubCallbacks/onGameDataReceived/#nl.pinch.gameshub.data.GameData/PointingToDeclaration/gameshub/nl.pinch.gameshub/-games-hub-callbacks/on-game-data-received.html
 $dokka.location:nl.pinch.gameshub/GamesHubCallbacks/onGamePaused/#nl.pinch.gameshub.data.GamePaused/PointingToDeclaration/gameshub/nl.pinch.gameshub/-games-hub-callbacks/on-game-paused.html
 $dokka.location:nl.pinch.gameshub/GamesHubCallbacks/onGameStarted/#nl.pinch.gameshub.data.GameStarted/PointingToDeclaration/gameshub/nl.pinch.gameshub/-games-hub-callbacks/on-game-started.html
 $dokka.location:nl.pinch.gameshub/GamesHubCallbacks/onGeneric/#nl.pinch.gameshub.data.Generic/PointingToDeclaration/gameshub/nl.pinch.gameshub/-games-hub-callbacks/on-generic.html
@@ -142,10 +155,11 @@ $dokka.location:nl.pinch.gameshub/OSLogLogger/d/#kotlin.Throwable?#kotlin.String
 $dokka.location:nl.pinch.gameshub/OSLogLogger/level/#/PointingToDeclaration/gameshub/nl.pinch.gameshub/-o-s-log-logger/level.html
 $dokka.location:nl.pinch.gameshub/OSLogLogger/w/#kotlin.Throwable?#kotlin.String#kotlin.Function0[kotlin.String]/PointingToDeclaration/gameshub/nl.pinch.gameshub/-o-s-log-logger/w.html
 $dokka.location:nl.pinch.gameshub/Options///PointingToDeclaration/gameshub/nl.pinch.gameshub/-options/index.html
-$dokka.location:nl.pinch.gameshub/Options/Options/#kotlin.Boolean#kotlin.String#kotlin.String#nl.pinch.gameshub.data.Theme#nl.pinch.gameshub.Player?#kotlin.collections.Map[kotlin.String,kotlin.String]?#nl.pinch.gameshub.SafeArea?/PointingToDeclaration/gameshub/nl.pinch.gameshub/-options/-options.html
+$dokka.location:nl.pinch.gameshub/Options/Options/#kotlin.Boolean#kotlin.String#kotlin.String#nl.pinch.gameshub.data.Theme#nl.pinch.gameshub.Player?#kotlin.collections.Map[kotlin.String,kotlin.String]?#nl.pinch.gameshub.SafeArea?#nl.pinch.gameshub.Features?/PointingToDeclaration/gameshub/nl.pinch.gameshub/-options/-options.html
 $dokka.location:nl.pinch.gameshub/Options/abVersion/#/PointingToDeclaration/gameshub/nl.pinch.gameshub/-options/ab-version.html
 $dokka.location:nl.pinch.gameshub/Options/brand/#/PointingToDeclaration/gameshub/nl.pinch.gameshub/-options/brand.html
 $dokka.location:nl.pinch.gameshub/Options/enableDebug/#/PointingToDeclaration/gameshub/nl.pinch.gameshub/-options/enable-debug.html
+$dokka.location:nl.pinch.gameshub/Options/features/#/PointingToDeclaration/gameshub/nl.pinch.gameshub/-options/features.html
 $dokka.location:nl.pinch.gameshub/Options/organisation/#/PointingToDeclaration/gameshub/nl.pinch.gameshub/-options/organisation.html
 $dokka.location:nl.pinch.gameshub/Options/player/#/PointingToDeclaration/gameshub/nl.pinch.gameshub/-options/player.html
 $dokka.location:nl.pinch.gameshub/Options/safeArea/#/PointingToDeclaration/gameshub/nl.pinch.gameshub/-options/safe-area.html

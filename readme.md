@@ -69,6 +69,7 @@ val gamesHubController = GamesHubBuilder(
         override fun onHeightCalculated(height: Int) { /* */ }
         override fun onModalShown(isShown: Boolean) { /* */ }
         override fun onStartScreenOpened(variant: GameVariant) { /* */ }
+        override fun onGameDataReceived(data: GameData) { /* */ }
     },
     userAgent = "Puzzels",
 ).build()
@@ -88,6 +89,9 @@ val options = Options(
     safeArea = SafeArea(
         body = SafeAreaValues(0, 0),
         overlays = SafeAreaValues(statusBarHeight, 0),
+    ),
+    features = Features(
+        externalGameTitle = ExternalGameTitle(enabled = true),
     ),
 )
 
@@ -154,6 +158,7 @@ let gamesHubController = GamesHubBuilder(
             func onHeightCalculated(height: Int32) { /* */ }
             func onModalShown(isShown: Bool) { /* */ }
             func onStartScreenOpened(variant: GamesHub.GameVariant) { /* */ }
+            func onGameDataReceived(data: GamesHub.GameData) { /* */ }
         }
         return GamesHubCallbacksImpl()
     }(),
@@ -176,6 +181,9 @@ let options = Options(
     safeArea: SafeArea(
         body: SafeAreaValues(top: 0, bottom: 0),
         overlays: SafeAreaValues(top: 0, bottom: 0)
+    ),
+    features: Features(
+        externalGameTitle: ExternalGameTitle(enabled: true)
     )
 )
 
