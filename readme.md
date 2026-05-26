@@ -143,7 +143,6 @@ Create an instance of the `GamesHubController` using the `GamesHubBuilder`:
 
 ```swift
 let gamesHubController = GamesHubBuilder(
-    frame: &self.view.bounds, // UIViewController view's bounds
     source: WebSource.Url(url: startUrl),
     callbacks: {
         class GamesHubCallbacksImpl : GamesHubCallbacks {
@@ -198,7 +197,7 @@ The `GamesHubCallbacks` is how you get notified about events happening in the Ga
 The resulting `GamesHub` will provide access to a key component further described below.
 
 ### GamesHubView
-This is the visual part of the GamesHub. In order for anything to display, an app **must** add this to a view hierarchy. Call `view.get()` to get the underlying native view. On iOS this is a [`UIKit.UIView`](https://developer.apple.com/documentation/uikit/uiview). Add the view to a `UIViewController` or SwiftUI (using [`UIViewRepresentable`](https://developer.apple.com/tutorials/swiftui/interfacing-with-uikit)):
+This is the visual part of the GamesHub. In order for anything to display, an app **must** add this to a view hierarchy and use Auto Layout to size the view. Call `view.get()` to get the underlying native view. On iOS this is a [`UIKit.UIView`](https://developer.apple.com/documentation/uikit/uiview). Add the view to a `UIViewController` or SwiftUI (using [`UIViewRepresentable`](https://developer.apple.com/tutorials/swiftui/interfacing-with-uikit)):
 
 ```swift
 self.view = gamesHubController.view.get()

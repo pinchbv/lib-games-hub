@@ -62,6 +62,14 @@ $dokka.location:nl.pinch.gameshub.data/Metadata/gameType/#/PointingToDeclaration
 $dokka.location:nl.pinch.gameshub.data/Metadata/puzzleDate/#/PointingToDeclaration/gameshub/nl.pinch.gameshub.data/-metadata/puzzle-date.html
 $dokka.location:nl.pinch.gameshub.data/Metadata/puzzleId/#/PointingToDeclaration/gameshub/nl.pinch.gameshub.data/-metadata/puzzle-id.html
 $dokka.location:nl.pinch.gameshub.data/Metadata/userId/#/PointingToDeclaration/gameshub/nl.pinch.gameshub.data/-metadata/user-id.html
+$dokka.location:nl.pinch.gameshub.data/OpenUrl.Puzzle///PointingToDeclaration/gameshub/nl.pinch.gameshub.data/-open-url/-puzzle/index.html
+$dokka.location:nl.pinch.gameshub.data/OpenUrl.Puzzle/Puzzle/#kotlin.String?#kotlin.String?#kotlin.String?#kotlin.String?#kotlin.String?#kotlin.Boolean/PointingToDeclaration/gameshub/nl.pinch.gameshub.data/-open-url/-puzzle/-puzzle.html
+$dokka.location:nl.pinch.gameshub.data/OpenUrl.Puzzle/desc/#/PointingToDeclaration/gameshub/nl.pinch.gameshub.data/-open-url/-puzzle/desc.html
+$dokka.location:nl.pinch.gameshub.data/OpenUrl.Puzzle/id/#/PointingToDeclaration/gameshub/nl.pinch.gameshub.data/-open-url/-puzzle/id.html
+$dokka.location:nl.pinch.gameshub.data/OpenUrl.Puzzle/playerId/#/PointingToDeclaration/gameshub/nl.pinch.gameshub.data/-open-url/-puzzle/player-id.html
+$dokka.location:nl.pinch.gameshub.data/OpenUrl.Puzzle/requireLogin/#/PointingToDeclaration/gameshub/nl.pinch.gameshub.data/-open-url/-puzzle/require-login.html
+$dokka.location:nl.pinch.gameshub.data/OpenUrl.Puzzle/slug/#/PointingToDeclaration/gameshub/nl.pinch.gameshub.data/-open-url/-puzzle/slug.html
+$dokka.location:nl.pinch.gameshub.data/OpenUrl.Puzzle/title/#/PointingToDeclaration/gameshub/nl.pinch.gameshub.data/-open-url/-puzzle/title.html
 $dokka.location:nl.pinch.gameshub.data/OpenUrl.Type.WebLink///PointingToDeclaration/{"org.jetbrains.dokka.links.EnumEntryDRIExtra":{"key":"org.jetbrains.dokka.links.EnumEntryDRIExtra"}}gameshub/nl.pinch.gameshub.data/-open-url/-type/-web-link/index.html
 $dokka.location:nl.pinch.gameshub.data/OpenUrl.Type.WebMessage///PointingToDeclaration/{"org.jetbrains.dokka.links.EnumEntryDRIExtra":{"key":"org.jetbrains.dokka.links.EnumEntryDRIExtra"}}gameshub/nl.pinch.gameshub.data/-open-url/-type/-web-message/index.html
 $dokka.location:nl.pinch.gameshub.data/OpenUrl.Type///PointingToDeclaration/gameshub/nl.pinch.gameshub.data/-open-url/-type/index.html
@@ -69,8 +77,9 @@ $dokka.location:nl.pinch.gameshub.data/OpenUrl.Type/entries/#/PointingToDeclarat
 $dokka.location:nl.pinch.gameshub.data/OpenUrl.Type/valueOf/#kotlin.String/PointingToDeclaration/gameshub/nl.pinch.gameshub.data/-open-url/-type/value-of.html
 $dokka.location:nl.pinch.gameshub.data/OpenUrl.Type/values/#/PointingToDeclaration/gameshub/nl.pinch.gameshub.data/-open-url/-type/values.html
 $dokka.location:nl.pinch.gameshub.data/OpenUrl///PointingToDeclaration/gameshub/nl.pinch.gameshub.data/-open-url/index.html
-$dokka.location:nl.pinch.gameshub.data/OpenUrl/OpenUrl/#kotlin.String#nl.pinch.gameshub.data.OpenUrl.Type#nl.pinch.gameshub.data.Metadata?/PointingToDeclaration/gameshub/nl.pinch.gameshub.data/-open-url/-open-url.html
+$dokka.location:nl.pinch.gameshub.data/OpenUrl/OpenUrl/#kotlin.String#nl.pinch.gameshub.data.OpenUrl.Type#nl.pinch.gameshub.data.Metadata?#nl.pinch.gameshub.data.OpenUrl.Puzzle?/PointingToDeclaration/gameshub/nl.pinch.gameshub.data/-open-url/-open-url.html
 $dokka.location:nl.pinch.gameshub.data/OpenUrl/metadata/#/PointingToDeclaration/gameshub/nl.pinch.gameshub.data/-open-url/metadata.html
+$dokka.location:nl.pinch.gameshub.data/OpenUrl/puzzle/#/PointingToDeclaration/gameshub/nl.pinch.gameshub.data/-open-url/puzzle.html
 $dokka.location:nl.pinch.gameshub.data/OpenUrl/type/#/PointingToDeclaration/gameshub/nl.pinch.gameshub.data/-open-url/type.html
 $dokka.location:nl.pinch.gameshub.data/OpenUrl/url/#/PointingToDeclaration/gameshub/nl.pinch.gameshub.data/-open-url/url.html
 $dokka.location:nl.pinch.gameshub.data/PuzzleData///PointingToDeclaration/gameshub/nl.pinch.gameshub.data/-puzzle-data/index.html
@@ -90,9 +99,8 @@ $dokka.location:nl.pinch.gameshub.data/Theme/valueOf/#kotlin.String/PointingToDe
 $dokka.location:nl.pinch.gameshub.data/Theme/values/#/PointingToDeclaration/gameshub/nl.pinch.gameshub.data/-theme/values.html
 $dokka.location:nl.pinch.gameshub.internal.webview////PointingToDeclaration/gameshub/nl.pinch.gameshub.internal.webview/index.html
 $dokka.location:nl.pinch.gameshub.internal.webview/ScrollableWebView///PointingToDeclaration/gameshub/nl.pinch.gameshub.internal.webview/-scrollable-web-view/index.html
-$dokka.location:nl.pinch.gameshub.internal.webview/ScrollableWebView/ScrollableWebView/#<ERROR CLASS> ERROR CLASS: Symbol not found for Context#<ERROR CLASS> ERROR CLASS: Symbol not found for AttributeSet??#kotlin.Int/PointingToDeclaration/gameshub/nl.pinch.gameshub.internal.webview/-scrollable-web-view/-scrollable-web-view.html
+$dokka.location:nl.pinch.gameshub.internal.webview/ScrollableWebView/ScrollableWebView/#android.content.Context#android.util.AttributeSet?#kotlin.Int/PointingToDeclaration/gameshub/nl.pinch.gameshub.internal.webview/-scrollable-web-view/-scrollable-web-view.html
 $dokka.location:nl.pinch.gameshub.internal.webview/ScrollableWebView/isScrollingEnabled/#/PointingToDeclaration/gameshub/nl.pinch.gameshub.internal.webview/-scrollable-web-view/is-scrolling-enabled.html
-$dokka.location:nl.pinch.gameshub.internal.webview/ScrollableWebView/onScrollChanged/#kotlin.Int#kotlin.Int#kotlin.Int#kotlin.Int/PointingToDeclaration/gameshub/nl.pinch.gameshub.internal.webview/-scrollable-web-view/on-scroll-changed.html
 $dokka.location:nl.pinch.gameshub.view////PointingToDeclaration/gameshub/nl.pinch.gameshub.view/index.html
 $dokka.location:nl.pinch.gameshub.view/GamesHubView///PointingToDeclaration/gameshub/nl.pinch.gameshub.view/-games-hub-view/index.html
 $dokka.location:nl.pinch.gameshub////PointingToDeclaration/gameshub/nl.pinch.gameshub/index.html
@@ -104,8 +112,8 @@ $dokka.location:nl.pinch.gameshub/Features///PointingToDeclaration/gameshub/nl.
 $dokka.location:nl.pinch.gameshub/Features/Features/#nl.pinch.gameshub.ExternalGameTitle?/PointingToDeclaration/gameshub/nl.pinch.gameshub/-features/-features.html
 $dokka.location:nl.pinch.gameshub/Features/externalGameTitle/#/PointingToDeclaration/gameshub/nl.pinch.gameshub/-features/external-game-title.html
 $dokka.location:nl.pinch.gameshub/GamesHubBuilder///PointingToDeclaration/gameshub/nl.pinch.gameshub/-games-hub-builder/index.html
-$dokka.location:nl.pinch.gameshub/GamesHubBuilder/GamesHubBuilder/#<ERROR CLASS> ERROR CLASS: Symbol not found for Context#nl.pinch.gameshub.WebSource#nl.pinch.gameshub.GamesHubCallbacks#nl.pinch.gameshub.Logger#kotlin.String?/PointingToDeclaration/gameshub/nl.pinch.gameshub/-games-hub-builder/-games-hub-builder.html
-$dokka.location:nl.pinch.gameshub/GamesHubBuilder/GamesHubBuilder/#platform.CoreGraphics.CGRect#nl.pinch.gameshub.WebSource#nl.pinch.gameshub.GamesHubCallbacks#nl.pinch.gameshub.Logger#kotlin.String?/PointingToDeclaration/gameshub/nl.pinch.gameshub/-games-hub-builder/-games-hub-builder.html
+$dokka.location:nl.pinch.gameshub/GamesHubBuilder/GamesHubBuilder/#android.content.Context#nl.pinch.gameshub.WebSource#nl.pinch.gameshub.GamesHubCallbacks#nl.pinch.gameshub.Logger#kotlin.String?/PointingToDeclaration/gameshub/nl.pinch.gameshub/-games-hub-builder/-games-hub-builder.html
+$dokka.location:nl.pinch.gameshub/GamesHubBuilder/GamesHubBuilder/#nl.pinch.gameshub.WebSource#nl.pinch.gameshub.GamesHubCallbacks#nl.pinch.gameshub.Logger#kotlin.String?/PointingToDeclaration/gameshub/nl.pinch.gameshub/-games-hub-builder/-games-hub-builder.html
 $dokka.location:nl.pinch.gameshub/GamesHubBuilder/build/#/PointingToDeclaration/gameshub/nl.pinch.gameshub/-games-hub-builder/build.html
 $dokka.location:nl.pinch.gameshub/GamesHubBuilder/callbacks/#/PointingToDeclaration/gameshub/nl.pinch.gameshub/-games-hub-builder/callbacks.html
 $dokka.location:nl.pinch.gameshub/GamesHubBuilder/logger/#/PointingToDeclaration/gameshub/nl.pinch.gameshub/-games-hub-builder/logger.html

@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.2.0
+- [iOS] Remove `frame` parameter from GamesHubBuilder. Use Auto Layout to constrain the size and position of the resulting view instead.
+- Add `OpenUrl.Puzzle`. When available, this contains information about the puzzle that is about to be opened.
+- Dependency update: Kotlin 2.3.21
+- Dependency update: Kotlinx.serialization 1.11.0
+- Dependency update: SKIE 0.10.12
+
 ## 0.1.10
 - Add new callback: `onGameData`, which is triggered when a game data message is received.
 - Add feature flags for external game title in initialization.
