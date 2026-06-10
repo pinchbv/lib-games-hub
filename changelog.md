@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.2.1
+- Handle ad link navigation on Android and iOS. Links that open in a new window (e.g. `window.open` / `target="_blank"`, as ad clicks do) are now forwarded through the `onOpenUrl` callback.
+- Add `GamesHubMode` enum with values `Generic` and `NRC`, and a new optional `gamesHubMode` parameter on `GamesHubBuilder`.
+- [iOS] Disable pinch-to-zoom in the iOS WebView.
+
 ## 0.2.0
 - [iOS] Remove `frame` parameter from GamesHubBuilder. Use Auto Layout to constrain the size and position of the resulting view instead.
 - Add `OpenUrl.Puzzle`. When available, this contains information about the puzzle that is about to be opened.

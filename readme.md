@@ -72,10 +72,14 @@ val gamesHubController = GamesHubBuilder(
         override fun onGameDataReceived(data: GameData) { /* */ }
     },
     userAgent = "Puzzels",
+    gamesHubMode = GamesHubMode.Generic,
 ).build()
 ```
 
 (See `WebSource` for other options to load web content that embeds the GamesHub SDK for web)
+
+> [!IMPORTANT]
+> `GamesHubMode` configures the SDK to either wait for the ready signal from Games Hub (`GamesHubMode.NRC`), or make the SDK in charge of firing this signal (`GamesHubMode.Generic`). The default is `GamesHubMode.NRC` for historical reasons.
 
 Initialize the `GamesHub` component using `Options`.
 
@@ -162,11 +166,15 @@ let gamesHubController = GamesHubBuilder(
         return GamesHubCallbacksImpl()
     }(),
     logger: OSLogLogger(level: LoggerLevel.debug),
-    userAgent: "NRC-Puzzels"
+    userAgent: "NRC-Puzzels",
+    gamesHubMode: GamesHubMode.generic
 ).build()
 ```
 
 (See `WebSource` for other options to load web content that embeds the GamesHub SDK for web)
+
+> [!IMPORTANT]
+> `GamesHubMode` configures the SDK to either wait for the ready signal from Games Hub (`GamesHubMode.nrc`), or make the SDK in charge of firing this signal (`GamesHubMode.generic`). The default is `GamesHubMode.nrc` for historical reasons.
 
 Initialize the `GamesHub` component using `Options`.
 

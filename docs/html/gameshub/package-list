@@ -48,6 +48,12 @@ $dokka.location:nl.pinch.gameshub.data/GameVariant///PointingToDeclaration/game
 $dokka.location:nl.pinch.gameshub.data/GameVariant/entries/#/PointingToDeclaration/gameshub/nl.pinch.gameshub.data/-game-variant/entries.html
 $dokka.location:nl.pinch.gameshub.data/GameVariant/valueOf/#kotlin.String/PointingToDeclaration/gameshub/nl.pinch.gameshub.data/-game-variant/value-of.html
 $dokka.location:nl.pinch.gameshub.data/GameVariant/values/#/PointingToDeclaration/gameshub/nl.pinch.gameshub.data/-game-variant/values.html
+$dokka.location:nl.pinch.gameshub.data/GamesHubMode.Generic///PointingToDeclaration/{"org.jetbrains.dokka.links.EnumEntryDRIExtra":{"key":"org.jetbrains.dokka.links.EnumEntryDRIExtra"}}gameshub/nl.pinch.gameshub.data/-games-hub-mode/-generic/index.html
+$dokka.location:nl.pinch.gameshub.data/GamesHubMode.NRC///PointingToDeclaration/{"org.jetbrains.dokka.links.EnumEntryDRIExtra":{"key":"org.jetbrains.dokka.links.EnumEntryDRIExtra"}}gameshub/nl.pinch.gameshub.data/-games-hub-mode/-n-r-c/index.html
+$dokka.location:nl.pinch.gameshub.data/GamesHubMode///PointingToDeclaration/gameshub/nl.pinch.gameshub.data/-games-hub-mode/index.html
+$dokka.location:nl.pinch.gameshub.data/GamesHubMode/entries/#/PointingToDeclaration/gameshub/nl.pinch.gameshub.data/-games-hub-mode/entries.html
+$dokka.location:nl.pinch.gameshub.data/GamesHubMode/valueOf/#kotlin.String/PointingToDeclaration/gameshub/nl.pinch.gameshub.data/-games-hub-mode/value-of.html
+$dokka.location:nl.pinch.gameshub.data/GamesHubMode/values/#/PointingToDeclaration/gameshub/nl.pinch.gameshub.data/-games-hub-mode/values.html
 $dokka.location:nl.pinch.gameshub.data/Generic///PointingToDeclaration/gameshub/nl.pinch.gameshub.data/-generic/index.html
 $dokka.location:nl.pinch.gameshub.data/Generic/Generic/#kotlin.String#kotlin.collections.Map[kotlin.String,kotlin.Any?]?#nl.pinch.gameshub.data.Metadata?/PointingToDeclaration/gameshub/nl.pinch.gameshub.data/-generic/-generic.html
 $dokka.location:nl.pinch.gameshub.data/Generic/data/#/PointingToDeclaration/gameshub/nl.pinch.gameshub.data/-generic/data.html
@@ -112,10 +118,11 @@ $dokka.location:nl.pinch.gameshub/Features///PointingToDeclaration/gameshub/nl.
 $dokka.location:nl.pinch.gameshub/Features/Features/#nl.pinch.gameshub.ExternalGameTitle?/PointingToDeclaration/gameshub/nl.pinch.gameshub/-features/-features.html
 $dokka.location:nl.pinch.gameshub/Features/externalGameTitle/#/PointingToDeclaration/gameshub/nl.pinch.gameshub/-features/external-game-title.html
 $dokka.location:nl.pinch.gameshub/GamesHubBuilder///PointingToDeclaration/gameshub/nl.pinch.gameshub/-games-hub-builder/index.html
-$dokka.location:nl.pinch.gameshub/GamesHubBuilder/GamesHubBuilder/#android.content.Context#nl.pinch.gameshub.WebSource#nl.pinch.gameshub.GamesHubCallbacks#nl.pinch.gameshub.Logger#kotlin.String?/PointingToDeclaration/gameshub/nl.pinch.gameshub/-games-hub-builder/-games-hub-builder.html
-$dokka.location:nl.pinch.gameshub/GamesHubBuilder/GamesHubBuilder/#nl.pinch.gameshub.WebSource#nl.pinch.gameshub.GamesHubCallbacks#nl.pinch.gameshub.Logger#kotlin.String?/PointingToDeclaration/gameshub/nl.pinch.gameshub/-games-hub-builder/-games-hub-builder.html
+$dokka.location:nl.pinch.gameshub/GamesHubBuilder/GamesHubBuilder/#android.content.Context#nl.pinch.gameshub.WebSource#nl.pinch.gameshub.GamesHubCallbacks#nl.pinch.gameshub.Logger#kotlin.String?#nl.pinch.gameshub.data.GamesHubMode/PointingToDeclaration/gameshub/nl.pinch.gameshub/-games-hub-builder/-games-hub-builder.html
+$dokka.location:nl.pinch.gameshub/GamesHubBuilder/GamesHubBuilder/#nl.pinch.gameshub.WebSource#nl.pinch.gameshub.GamesHubCallbacks#nl.pinch.gameshub.Logger#kotlin.String?#nl.pinch.gameshub.data.GamesHubMode/PointingToDeclaration/gameshub/nl.pinch.gameshub/-games-hub-builder/-games-hub-builder.html
 $dokka.location:nl.pinch.gameshub/GamesHubBuilder/build/#/PointingToDeclaration/gameshub/nl.pinch.gameshub/-games-hub-builder/build.html
 $dokka.location:nl.pinch.gameshub/GamesHubBuilder/callbacks/#/PointingToDeclaration/gameshub/nl.pinch.gameshub/-games-hub-builder/callbacks.html
+$dokka.location:nl.pinch.gameshub/GamesHubBuilder/gamesHubMode/#/PointingToDeclaration/gameshub/nl.pinch.gameshub/-games-hub-builder/games-hub-mode.html
 $dokka.location:nl.pinch.gameshub/GamesHubBuilder/logger/#/PointingToDeclaration/gameshub/nl.pinch.gameshub/-games-hub-builder/logger.html
 $dokka.location:nl.pinch.gameshub/GamesHubBuilder/source/#/PointingToDeclaration/gameshub/nl.pinch.gameshub/-games-hub-builder/source.html
 $dokka.location:nl.pinch.gameshub/GamesHubBuilder/userAgent/#/PointingToDeclaration/gameshub/nl.pinch.gameshub/-games-hub-builder/user-agent.html
