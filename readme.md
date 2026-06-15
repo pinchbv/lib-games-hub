@@ -57,19 +57,21 @@ val gamesHubController = GamesHubBuilder(
     context = this, // UI context; e.g. an Activity
     source = WebSource.Url(url = startUrl),
     logger = LogCatLogger(Logger.Level.Debug),
-    callbacks = object: GamesHubCallbacks {
-        override fun onReady(data: PuzzleData) { /* */ }
-        override fun onInitialized(data: PuzzleData) { /* */ }
-        override fun onGameStarted(data: GameStarted) { /* */ }
-        override fun onGamePaused(data: GamePaused) { /* */ }
-        override fun onGameCompleted(data: GameCompleted) { /* */ }
-        override fun onShare(data: Share) { /* */ }
-        override fun onOpenUrl(data: OpenUrl) { /* */ }
-        override fun onGeneric(data: Generic) { /* */ }
-        override fun onHeightCalculated(height: Int) { /* */ }
-        override fun onModalShown(isShown: Boolean) { /* */ }
-        override fun onStartScreenOpened(variant: GameVariant) { /* */ }
-        override fun onGameDataReceived(data: GameData) { /* */ }
+    onEvent = { event ->
+        when (event) {
+            is GamesHubEvent.OnReady -> { /* */ }
+            is GamesHubEvent.OnInitialized -> { /* */ }
+            is GamesHubEvent.OnGameStarted -> { /* */ }
+            is GamesHubEvent.OnGamePaused -> { /* */ }
+            is GamesHubEvent.OnGameCompleted -> { /* */ }
+            is GamesHubEvent.OnShare -> { /* */ }
+            is GamesHubEvent.OnOpenUrl -> { /* */ }
+            is GamesHubEvent.OnGeneric -> { /* */ }
+            is GamesHubEvent.OnHeightCalculated -> { /* */ }
+            is GamesHubEvent.OnModalShown -> { /* */ }
+            is GamesHubEvent.OnStartScreenOpened -> { /* */ }
+            is GamesHubEvent.OnGameDataReceived -> { /* */ }
+        }
     },
     userAgent = "Puzzels",
     gamesHubMode = GamesHubMode.Generic,
@@ -105,7 +107,7 @@ gamesHubController.initialize(options)
 > [!IMPORTANT]  
 > You need to call `gamesHubController.initialize()` in order to show Puzzles.
 
-The `GamesHubCallbacks` is how you get notified about events happening in the GamesHub.
+The `onEvent` lambda is how you get notified about events happening in the GamesHub. Each event is a subtype of `GamesHubEvent`. It is recommended to handle each case individually to make the `when` statement exhaustive.
 
 The resulting `GamesHubController` will provide access to a key component further described below.
 
@@ -124,7 +126,7 @@ Some examples include:
 - When using an activity-based navigation stack, the view may not be destroyed and/or recreated when transiting from one destination to another. If the game state can change in any of the destinations, GamesHub will need to be explicitly informed to reflect the latest state when navigating back. The sample app showcases this, and informs GamesHub it received `focus()` again when an Activity gets resumed.
 - When manually handling [configuration changes](https://developer.android.com/guide/topics/manifest/activity-element#config). For `uiMode` changes, call `setTheme()` with a light or dark theme.
 - For additional logging, call `setDebug()`.
-- To disable scrolling you can set it via `setScrollEnabled(true || false)`. This is used in combination of the `GamesHubCallbacks.onHeightCalculated` callback.
+- To disable scrolling you can set it via `setScrollEnabled(true || false)`. This is used in combination of the `GamesHubEvent.OnHeightCalculated` event.
 - `closeOverlays(useAnimation: Boolean)` allows to close any modal that is currently opened on the page.
 - `evaluateJavascript(script: String, resultCallback: (String?) -> Unit)` allows to run a javascript command in the GamesHub's WebView.
 
@@ -148,23 +150,22 @@ Create an instance of the `GamesHubController` using the `GamesHubBuilder`:
 ```swift
 let gamesHubController = GamesHubBuilder(
     source: WebSource.Url(url: startUrl),
-    callbacks: {
-        class GamesHubCallbacksImpl : GamesHubCallbacks {
-            func onReady(data: PuzzleData) { /* */ }
-            func onInitialized(data: PuzzleData) { /* */ }
-            func onGameCompleted(data: GameCompleted) { /* */ }
-            func onGameStarted(data: GameStarted) { /* */ }
-            func onGamePaused(data: GamePaused) { /* */ }
-            func onOpenUrl(data: OpenUrl) { /* */ }
-            func onShare(data: Share) { /* */ }
-            func onGeneric(data: Generic) { /* */ }
-            func onHeightCalculated(height: Int32) { /* */ }
-            func onModalShown(isShown: Bool) { /* */ }
-            func onStartScreenOpened(variant: GamesHub.GameVariant) { /* */ }
-            func onGameDataReceived(data: GamesHub.GameData) { /* */ }
+    onEvent: { [weak self] event in
+        switch onEnum(of: event) {
+        case .onReady:                      break
+        case .onInitialized:                break
+        case .onGameStarted:                break
+        case .onGamePaused:                 break
+        case .onGameCompleted:              break
+        case .onShare:                      break
+        case .onOpenUrl(let e):             break // e.data: OpenUrl
+        case .onGeneric:                    break
+        case .onHeightCalculated(let e):    break // e.height: Int32
+        case .onModalShown(let e):          break // e.shown: Bool
+        case .onStartScreenOpened:          break
+        case .onGameDataReceived(let e):    break // e.data: GameData
         }
-        return GamesHubCallbacksImpl()
-    }(),
+    },
     logger: OSLogLogger(level: LoggerLevel.debug),
     userAgent: "NRC-Puzzels",
     gamesHubMode: GamesHubMode.generic
@@ -200,7 +201,7 @@ gamesHubController.initialize(options: options)
 > [!IMPORTANT]  
 > You need to call `gamesHub.initialize()` in order to show Puzzles.
 
-The `GamesHubCallbacks` is how you get notified about events happening in the GamesHub.
+The `onEvent` closure is how you get notified about events happening in the GamesHub. Each event is a case of the `GamesHubEvent` sealed class, matched exhaustively via SKIE's `onEnum(of:)` helper.
 
 The resulting `GamesHub` will provide access to a key component further described below.
 
@@ -218,6 +219,6 @@ Some examples include:
 - When using an `UIViewController`-based navigation stack, the view is not destroyed and/or recreated when transiting from one destination to another. If the game state can change in any of the destinations, GamesHub will need to be explicitly informed to reflect the latest state when navigating back. The sample app showcases this, and informs GamesHub it received `focus()` again when an `UIViewController` will appear (again).
 - When switching between light and dark mode, call `setTheme()` with the appropriate theme.
 - For additional logging, call `setDebug()`.
-- To disable scrolling you can set it via `setScrollEnabled(true || false)`. This is used in combination of the `GamesHubCallbacks.onHeightCalculated` callback.
+- To disable scrolling you can set it via `setScrollEnabled(true || false)`. This is used in combination of the `GamesHubEvent.OnHeightCalculated` event.
 - `closeOverlays(useAnimation: Boolean)` allows to close any modal that is currently opened on the page.
 - `evaluateJavascript(script: String, resultCallback: (String?) -> Unit)` allows to run a javascript command in the GamesHub's WebView.

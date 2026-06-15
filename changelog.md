@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.3.0
+- **Breaking change**: `GamesHubCallbacks` has been removed. The `callbacks` parameter on `GamesHubBuilder` is replaced by `onEvent: (GamesHubEvent) -> Unit`.
+- **Breaking change**: Introduce `GamesHubEvent` sealed class. Each former callback corresponds to an `On*` subtype: `OnReady`, `OnInitialized`, `OnGameStarted`, `OnGamePaused`, `OnGameCompleted`, `OnShare`, `OnOpenUrl`, `OnGeneric`, `OnHeightCalculated`, `OnModalShown`, `OnStartScreenOpened`, `OnGameDataReceived`.
+- [iOS] Fix retain cycle. The previous `GamesHubCallbacks` class was held strongly through the callback chain, causing a retain cycle between the host `UIViewController` and `GamesHubController`. The closure-based `onEvent` API allows using `[weak self]` to break the cycle.
+
 ## 0.2.1
 - Handle ad link navigation on Android and iOS. Links that open in a new window (e.g. `window.open` / `target="_blank"`, as ad clicks do) are now forwarded through the `onOpenUrl` callback.
 - Add `GamesHubMode` enum with values `Generic` and `NRC`, and a new optional `gamesHubMode` parameter on `GamesHubBuilder`.
